@@ -5,6 +5,8 @@ Andres Sikka,
 Dmitri Shibin,
 Nikita Kajalin
 
+https://webpage5.azurewebsites.net/#
+
 Programm on loodud funktsionaal stiilis.
 “jQery” kaudu oli implementeeritud andmete saamine, kui ka nuppude vajutamine.
 On olemas rippmenüü, kust saab valida TODO-lisamis kategooriat.
