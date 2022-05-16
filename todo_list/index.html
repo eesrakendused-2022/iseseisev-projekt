@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="autor">
+            <td>
+                <tr><strong>Autorid:</strong></tr><br>
+                <tr>Nikita Kajalin</tr><br>
+                <tr>Andres Sikka</tr><br>
+                <tr>Dmitri Šibin</tr>
+                <tr><a href="https://github.com/kajalinn/iseseisev-projekt">Github REP</a></tr>
+            </td>
+        </div>
+        <div id = "askForName">
+            <!--        <input type="text" id="userName">-->
+            <h1 class="title">Notebook</h1>
+        </div>
+        <div class="dataInfo">
+            <div class="currentSelection">
+                <h1>Current choice</h1>
+            </div>
+            <div id="clock_container">
+                <div id="time">
+                    <div id="hours">06</div>
+                    <div id="minutes">:27</div>
+                    <div id="seconds">:16</div>
+                </div>
+                <div id="dateCalender">
+                    <div class="calender" id="date">10</div>
+                    <div class="calender" id="month">Märts</div>
+                    <div class="calender" id="year">2022</div>
+                    <div id="day">Neljapäev</div>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Note type</button>
+            <div class="dropdown-content">
+                <a class="choiceSelection" href="#" value="day">Day</a>
+                <a class="choiceSelection" href="#" value="month">Month</a>
+                <a class="choiceSelection" href="#" value="year">Year</a>
+            </div>
+        </div>
+        <div class="formDiv">
+            <form class="formInput">
+                <div class="twoButtons">
+                    <button class="todoButtons" id="addTodo">Press da button</button>
+                    <button class="todoButtons" id="clearBtn">Clear da list</button>
+                </div>
+                <br>
+                <textarea id="todoAdd" cols="30" rows="3"></textarea>
+                <br>
+            </form>
+        </div>
+        <div id="container">
+            <div class="listsToDo" id="dayList">
+                <div class="notes dailyNotes"><strong>Daily notes</strong></div>
+                <tr><td><input class="button_sub" type='button' id='submit_btn_day' value='Submit done'></td><td></td></tr>
+                <div class="noteText" id="todo_list_day"></div>
+            </div>
+            <div class="listsToDo" id="monthList">
+                <div class="notes monthNotes"><strong>Monthly notes</strong></div>
+                <tr><td><input class="button_sub" type='button' id='submit_btn_month' value='Submit done'></td><td></td></tr>
+                <div class="noteText" id="todo_list_month"></div>
+            </div>
+            <div class="listsToDo" id="yearList">
+                <div class="notes yearNotes"><strong>Yearly notes</strong></div>
+                <tr><td><input class="button_sub" type='button' id='submit_btn_year' value='Submit done'></td><td></td></tr>
+                <div class="noteText" id="todo_list_year"></div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="app.js"></script>
+</html>

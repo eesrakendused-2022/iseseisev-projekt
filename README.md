@@ -1,3 +1,24 @@
+# TO DO LIST 
+
+Autorite nimed:
+Andres Sikka,
+Dmitri Shibin,
+Nikita Kajalin
+
+https://webpage5.azurewebsites.net/#
+
+Programm on loodud funktsionaal stiilis.
+“jQery” kaudu oli implementeeritud andmete saamine, kui ka nuppude vajutamine.
+On olemas rippmenüü, kust saab valida TODO-lisamis kategooriat.
+Rakenduse funktsionaal võimaldab lisada TODO-sse, kustutada terve TODO või eemaldada sooritatud kirjed konkreetses TODO-s. On olemas kell, koos kuupäevaga.
+Andres Sikka - tegeles HTML -ja CSS-i kujundamisega; tegeles andmete salvestamisega brauseris; tegeles andme kustutamisega ja sellega seotud loogikaga;
+Nikita Kajalin - tegeles HTML -ja CSS-i  kujundamisega ehk ka andmete välja prindimisega ja  sellega seotud loogikaga;
+Dmitri Šibin - tegeles HTML -ja CSS-i kujundamisega; tegeles kella/kuupäeva funktsionaalsusega  ja sellega seotud loogikaga.
+
+![image](https://user-images.githubusercontent.com/89911732/168670294-8a91bc0d-b327-4ba5-bb39-ebbb8a5f9e90.png)
+
+
+
 # iseseisev-projekt
 
 Tähtaeg - 1 päev enne esitlust. Esitluse kuupäevadeks: 1 nädal peale ÕISis valitud arvestuse kuupäeva (v.a arvatud järelarvestus, mis toimub õigel kuupäeval) - kindlasti tuleb arvestusele registreerida. Projektide esitlemine toimub:
