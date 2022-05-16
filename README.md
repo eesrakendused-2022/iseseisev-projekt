@@ -1,8 +1,8 @@
 # TO DO LIST 
 
 Autorite nimed:
-Andres Sikka
-Dmitri Shibin
+Andres Sikka,
+Dmitri Shibin,
 Nikita Kajalin
 
 Programm on loodud funktsionaal stiilis.
