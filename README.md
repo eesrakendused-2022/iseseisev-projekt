@@ -2,7 +2,7 @@
 
 Autor - Morten-Paul Mühlberg
 
-Raamaturiiul - [http://www.tlu.ee/~morten1/raamaturiiul/raamat.html]
+Raamaturiiul - http://www.tlu.ee/~morten1/raamaturiiul/raamat.html
 
 ## Funktsionaalsused
 
@@ -17,5 +17,5 @@ Raamaturiiul - [http://www.tlu.ee/~morten1/raamaturiiul/raamat.html]
 
 ## Kasutatud materjalid
 
-https://academind.com/tutorials/adding-dark-mode
-https://www.youtube.com/watch?v=JaMCxVWtW58&ab_channel=TraversyMedia
+!https://academind.com/tutorials/adding-dark-mode
+!https://www.youtube.com/watch?v=JaMCxVWtW58&ab_channel=TraversyMedia
