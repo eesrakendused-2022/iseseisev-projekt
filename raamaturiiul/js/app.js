@@ -168,10 +168,10 @@ const addFeedback = function() {
     const errorMessage = "Please fill all blanks!";
     const submitMessage = "Feedback sent!";
 
-    if (firstName == null || surName == null || email == null || additionalInfo == null) {
-        document.getElementById("submitConfirmation").innerHTML = submitMessage;
-    } else {
+    if (firstName.value.length == 0 || surName.value.length == 0 || email.value.length == 0 || additionalInfo.value.length == 0) {
         document.getElementById("submitConfirmation").innerHTML = errorMessage;
+    } else {
+        document.getElementById("submitConfirmation").innerHTML = submitMessage;
     }
 };
 
