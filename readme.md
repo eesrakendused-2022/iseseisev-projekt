@@ -20,7 +20,7 @@
 * Link autori ja projekti repositooriumitele
 * Kuupäev ja aeg lehel välja toodud
 * PHP server ja txt (json kujul) database
-* Võimalus lisada uue raamatu
+* Võimalus lisada uue raamatu (vahetub värv)
 * Võimalus vahetada praegust lehekülje slaideriga
 * Drop down listi võimalus loodud
 
